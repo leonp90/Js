@@ -17,5 +17,5 @@ function reverse(n) {
 
 //Recursion
 function reverse(n) {
-  return (n === '') ? '' : reverse(n.substr(1)) + str.charAt(0);
+  return (n === '') ? '' : reverse(n.substr(1)) + n.charAt(0);
 }
